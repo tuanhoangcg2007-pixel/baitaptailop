@@ -73,12 +73,12 @@ else:
         # Hiển thị kết quả chuyên nghiệp
         st.divider()
         if prediction == 2:
-            st.error(f"### KẾT QUẢ: MỨC ĐỘ CAO (HIGH - 2)")
-            st.toast("Cần xử lý ngay lập tức!", icon="🔥")
+            st.error(f"### KẾT QUẢ: MỨC ĐỘ ƯU TIÊN CAO (HIGH - 2)")
+            st.toast("Cần xử lý ngay!", icon="🔥")
         elif prediction == 1:
-            st.warning(f"### KẾT QUẢ: MỨC ĐỘ TRUNG BÌNH (MEDIUM - 1)")
+            st.warning(f"### KẾT QUẢ: MỨC ĐỘ ƯU TIÊN TRUNG BÌNH (MEDIUM - 1)")
         else:
-            st.info(f"### KẾT QUẢ: MỨC ĐỘ THẤP (LOW - 0)")
+            st.info(f"### KẾT QUẢ: MỨC ĐỘ ƯU TIÊN THẤP (LOW - 0)")
 
     # 3. Phân tích tầm quan trọng của các yếu tố
     if st.checkbox("Xem yếu tố nào ảnh hưởng nhất đến Priority?"):
