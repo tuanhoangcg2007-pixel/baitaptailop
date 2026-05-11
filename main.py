@@ -7,9 +7,9 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # Cấu hình trang
-st.set_page_config(page_title="AI Dự đoán Đơn hàng", page_icon="🎯")
+st.set_page_config(page_title="Dự đoán ưu tiên Đơn hàng", page_icon="🎯")
 
-st.title("🚀 Hệ thống Dự đoán Priority (Nâng cao)")
+st.title("🚀 Hệ thống Dự đoán Mức Độ Ưu Tiên")
 st.write("Mô hình đã được nâng cấp lên **Random Forest** để đạt độ chính xác cao nhất.")
 
 # 1. Hàm huấn luyện mô hình
